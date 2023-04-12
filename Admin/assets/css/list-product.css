@@ -1,0 +1,93 @@
+.pagination {
+    margin:20px 20px 20px 0;
+    display: inline-block;
+    float: right;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #5373e3;
+    color: white;
+    border: 1px solid #5373e3;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  
+  .pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .form-design {
+    padding: 20px;
+}
+
+.btn-save {
+    width: 100px;
+    border: none;
+    color: #fff;
+    background-color: #5373e3 !important;
+    border-radius: 2px;
+}
+
+.btn-save:hover {
+    background-color: #325efa !important;
+}
+
+.btn-cancel {
+  width: 100px;
+  border: none;
+  color: #fff;
+  background-color: #d0fa14 !important;
+  border-radius: 2px;
+}
+
+.btn-cancel:hover {
+  background-color: #aed30b !important;
+}
+
+.update-product {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:rgb(0, 0, 0, 0.4);
+    display: none;
+  }
+
+.update-product.open {
+    display: flex;
+    flex-direction: column;
+}
+
+  .update-product-man {
+    margin: 16px 24px 0 290px;
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    animation: modalFaceUpdate ease 0.5s;
+  }
+
+  @keyframes modalFaceUpdate {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/product.css">
+
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+
+    <title>Product</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header__header">
+            <div class="header__top grid ">
+                <a href="http://127.0.0.1:5500/index.html" class="header__top--logo ">
+                    <img src="./assets/img/FPT_Shop.webp" alt="" class="header__top--img">
+                </a>
+                <div class="header__top--search">
+                    <div class="header__search-ward">
+                        <input type="text" class="header__search-input" placeholder="Nhập tên điện thoại, máy tính, phụ kiện... cần tìm">
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-header"> Lịch sử tìm kiếm </h3>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item"><a href="">Iphone 14 pro</a></li>
+                                <li class="header__search-history-item"><a href="">Cáp sạc nhanh type C</a></li>
+                                <li class="header__search-history-item"><a href="">Pin dự phòng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__search--icon">
+                        <i class="header__search--ti  ti-search"></i>
+                    </div>
+                </div>
+                <div class="header__top--list">
+                    <ul class="header__top--item">
+                        <li class="header__top--icon">
+                            <a href="" class="header__top--link">
+                                <i class="header__top--link-icon-item ti-comment-alt"></i>
+                                <span class="header__top--link-title">Thông tin hay</span>
+                            </a>
+                        </li>
+                        <li class="header__top--icon">
+                            <a href="" class="header__top--link">
+                                <i class="header__top--link-icon-item ti-receipt"></i>
+                                <span class="header__top--link-title">Thay toán & tiện ích</span>
+                            </a>
+                        </li>
+                        <li class="header__top--icon js-login">
+                            <a href="#" class="header__top--link">
+                                <i class="header__top--link-icon-item ti-user"></i>
+                                <span class="header__top--link-title header-login">Tài khoản của tôi</span>
+                            </a>
+                        </li>
+                        <li  class="header__top--icon js-cart" onclick="showOrder()">
+                            <a href="#" class="header__top--link">
+                                <i class="header__top--link-icon-item ti-shopping-cart"></i>
+                                <span class="header-cart-notify-heading">0</span>
+                                <span class="header__top--link-title">Giỏ hàng</span>
+                                <div class="header-cart-notify-list">
+                                    <h4 class="header-cart-heading">Sản phẩm đã thêm</h4>
+                                    <div class="header-cart-heading-list">
+                                        
+                                    </div>
+                                    <div class="header-cart-sumprice">
+                                        <button class="btn header-cart-pay">Thanh toán</button>
+                                        <p class="header-cart-sum">Tổng tiền: <span class="header-cart-price">0</span><sup>đ</sup></p>
+                                    </div>
+                                    
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header__footer">
+            <div class="header__footer--nav grid">
+                <ul class="header__footer--nav-list">
+                   
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="product-main grid">
+        
+    </section>
+    <footer class="footer">
+        <div class="grid ">
+            <div class="grid__row footer-grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer-heading">Hướng dẫn mua hàng</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="">Hướng dẫn mua hàng</a></li>
+                        <li class="footer-item"><a href="">Trung tâm trợ giúp</a></li>
+                        <li class="footer-item"><a href="">Shop PDP</a></li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer-heading">Giới thiệu</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="">Tuyển dụng</a></li>
+                        <li class="footer-item"><a href="">Giới thiệu</a></li>
+                        <li class="footer-item"><a href="">Điều khoản</a></li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer-heading">Thanh toán</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="">Tuyển dụng</a></li>
+                        <li class="footer-item"><a href="">Giới thiệu</a></li>
+                        <li class="footer-item"><a href="">Điều khoản</a></li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer-heading">Theo dõi</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <i class="footer-item-icon fa-brands fa-facebook"></i>
+                            <a href="">facebook</a>
+                        </li>
+                        <li class="footer-item">
+                            <i class="footer-item-icon fa-brands fa-instagram"></i>
+                            <a href="">Intagram</a>
+                        </li>
+                        <li class="footer-item">
+                            <i class="footer-item-icon fa-brands fa-linkedin"></i>
+                            <a href="">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer-heading">Vào cửa hàng trên ứng dụng</h3>
+                    <div class="footer-download">
+                        <img src="./assets/img/qr-code.png" alt="" class="footer-download__qrcode">
+                        <div class="footer-download__list">
+                            <a href="" class="footer-download-link">
+                                <img src="./assets/img/chplay.png" alt="" class="footer-download__list-item">
+                            </a>
+                            <a href="" class="footer-download-link">
+                                <img src="./assets/img/appstore.png" alt="" class="footer-download__list-item">
+    
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal js-modal">
+        <form class="modal-login">
+            <header class="modal-login-header">
+                <h2 class="modal-login-header-text">Đăng nhập vào tài khoản</h2>
+                <i class="ti-close modal-login-header-close"></i>
+            </header>
+            <div class="modal-login-containe">
+                <img src="./assets/img/img-login.webp" alt="" class="modal-login-containe-img">
+                <div class="form-group">
+                    <input id="username" name="username" type="text" placeholder="Tên tài khoản" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <input id="password" name="password" type="password" placeholder="Mật khẩu" class="form-control">
+                  </div>
+                <button class="modal-login-containe-buuton">Đăng nhập</button>
+            </div>
+        </form>
+
+        <form class="modal-logout">
+            <header class="modal-login-header">
+                <h2 class="modal-login-header-text">Đăng xuất tài khoản</h2>
+                <i class="ti-close modal-login-header-close"></i>
+            </header>
+            <div class="modal-login-containe">
+                <img src="./assets/img/img-login.webp" alt="" class="modal-login-containe-img">
+                
+                <button class="modal-login-containe-buuton btn-logout">Đăng xuất</button>
+            </div>
+        </form>
+
+        
+
+        <form class="modal-cart">
+           
+        </form>
+
+   </div>
+
+</body>
+<script src="./js/show-login.js"></script>
+<script src="./js/category.js"></script>
+<script src="./js/login.js"></script>
+<script src="./js/product-one-detail.js"></script>
+<script src="./js/order.js"></script>
+<script src="./js/logout.js"></script>
+</html>

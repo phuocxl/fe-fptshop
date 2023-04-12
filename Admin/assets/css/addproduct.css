@@ -1,0 +1,15 @@
+
+.form-design {
+    padding: 20px;
+}
+
+.btn-save {
+    border: none;
+    color: #fff;
+    background-color: #5373e3 !important;
+    border-radius: 2px;
+}
+
+.btn-save:hover {
+    background-color: #325efa !important;
+}
